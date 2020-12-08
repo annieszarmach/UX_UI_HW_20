@@ -140,6 +140,7 @@ p{
 
 .col-6{
     padding:50px;
+    margin:10px;
 }
 
 .col-space{
@@ -176,4 +177,14 @@ p{
 .row{
     display:flex;
     justify-content: center;
+}
+
+.btn-primary{
+    background-color: #95512b;
+    border:1px solid #95512b;
+}
+
+.btn-primary:hover{
+    background-color: #B56B22;
+    border:1px solid #B56B22;
 }
