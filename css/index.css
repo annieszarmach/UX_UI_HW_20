@@ -12,7 +12,6 @@ li{
 .jumbotron-fluid{
     background-image:url("../images/home/pettrek.png");
     background-repeat:no-repeat;
-    background-position:center;
     background-size:100%;
 }
 
@@ -147,7 +146,7 @@ p{
     margin-top:100px;
 }
 
-.row{
+.row-1{
     display:grid;
     grid-template-columns: auto;
     grid-template-rows:auto;
@@ -156,7 +155,7 @@ p{
 }
 
 @media only screen and (max-width:600px){
-.row{
+.row-1{
     display:grid;
     grid-template-columns: auto;
     grid-template-rows:auto;
