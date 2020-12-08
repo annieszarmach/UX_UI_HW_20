@@ -6,6 +6,7 @@ li{
 
 .logo-image{
     width:100px;
+    padding:10px;
 }
 
 .jumbotron-fluid{
@@ -45,7 +46,7 @@ p{
 }
 
 .display-4, .lead{
-    margin-left:10px;
+    margin-left:15px;
 }
 
 .display-1{
@@ -54,4 +55,121 @@ p{
 
 .bottom{
    padding-bottom:15px;
+}
+
+.card-img-top-1{
+    width:100%;
+}
+
+.card-img-top-2{
+    width:50%;
+    display:flex;
+    justify-content: center;
+
+}
+
+.card-img-top-3{
+    width:100%;
+}
+
+.card-img-top-4{
+    width:100%;
+}
+
+.cardgrid{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-template-rows:auto;
+    margin:75px;
+    grid-template-areas:
+    "card1 card2 card3 card4"
+}
+
+@media only screen and (max-width:600px){
+    .cardgrid{
+        display:grid;
+        justify-content: center;
+        grid-template-columns: auto;
+        grid-template-rows:auto;
+        margin:75px;
+        grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+    }
+}
+
+.card1{
+    grid-area: card1;
+    border:black solid .5px;
+    margin:10px;
+}
+
+.card2{
+    grid-area: card2;
+    border:black solid .5px;
+    margin:10px;
+}
+
+.card3{
+    grid-area: card3;
+    border:black solid .5px;
+    margin:10px;
+}
+
+.card4{
+    grid-area: card4;
+    border:black solid .5px;
+    margin:10px;
+}
+
+.cardheader{
+    display:flex;
+    justify-content: center;
+    margin-top:75px;
+}
+
+.carousel-item{
+    width:100%
+}
+
+.prototype{
+    margin-bottom:75px;
+}
+
+.col-6{
+    padding:50px;
+}
+
+.col-space{
+    margin-top:100px;
+}
+
+.row{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows:auto;
+    grid-template-areas:
+    "photo text"
+}
+
+@media only screen and (max-width:600px){
+.row{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows:auto;
+    grid-template-areas:
+    "photo"
+    "text"
+}
+}
+
+.col-6{
+    grid-area:photo;
+}
+
+.col-space{
+    grid-area:text;
 }
