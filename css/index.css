@@ -173,3 +173,8 @@ p{
 .col-space{
     grid-area:text;
 }
+
+.row{
+    display:flex;
+    justify-content: center;
+}
