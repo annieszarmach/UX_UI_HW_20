@@ -1,0 +1,57 @@
+li{
+    font-family:avenir, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.logo-image{
+    width:100px;
+}
+
+.jumbotron-fluid{
+    background-image:url("../images/home/pettrek.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+}
+
+.container{
+    background-color: white;
+}
+
+.display-1{
+    display:flex;
+    justify-content: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:avenir, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:3px;
+}
+
+h1{
+    font-weight:bold !important;
+    font-size:40px !important;
+
+}
+
+h4{
+    font-size:25px !important;
+}
+
+p{
+    font-size:15px !important;
+}
+
+.display-4, .lead{
+    margin-left:10px;
+}
+
+.display-1{
+    padding:15px;
+}
+
+.bottom{
+   padding-bottom:15px;
+}
